@@ -15,9 +15,10 @@ export default function Home() {
               <Image
 
           src="/DJI_0465.jpg"
-          style={{ objectFit: "contain", width: "100vw", height: "100%" }}
+          style={{ objectFit: "contain", width: "100vw",  height: "100%" }}
+          
           width={4000}
-          height={2250}
+          loading="lazy" height={2250}
           
           
         />
@@ -32,10 +33,10 @@ export default function Home() {
       <div className='chamonix'>
         <h1 className={abel.className}>Chamonix 19/09/2023</h1>
         <div className='chamonix-flex'>
-          <div><Image src="/DJI_0578.jpg" className="chamonix-img" width={4000} height={2250} style={{objectFit:"contain"}}
+          <div><Image src="/DJI_0578.jpg" className="chamonix-img" width={4000} loading="lazy" height={2250} style={{objectFit:"contain"}}
           /></div>
         
-           <video autoPlay loop muted width="4000" height="386" style={{objectFit:"contain"}}>
+           <video autoPlay loop muted width="4000" loading="lazy" height="386" style={{objectFit:"contain"}}>
             <source src="/Video2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -43,23 +44,23 @@ export default function Home() {
       </div>
       <div className="services">
         <div>
-        <Image src="/Drone_inspection.png" width={512} height={512} style={{objectFit:"contain"}} alt='drone inspection' />
+        <Image src="/Drone_inspection.png" width={512} loading="lazy" height={512} style={{objectFit:"contain"}} alt='drone inspection' />
           <p className="">
             Explore drone inspections for construction sites - they excel at accessing challenging areas, ensuring thorough, safe assessments. Rely on precision and ease, eliminating risky manual inspections for confident decision-making.
           </p>
         </div>
       
         <div>
-          <Image src="/Drone_imagery.png" width={512} height={512} style={{objectFit:"contain"}} alt='drone imagery'/>
+          <Image src="/Drone_imagery.png" width={512} loading="lazy" height={512} style={{objectFit:"contain"}} alt='drone imagery'/>
           <p className="">
             Elevate your website with our drone photography service. We capture high-quality, unique aerial shots that offer a fresh perspective on your work. Transform your online presence with striking visuals.
           </p>
         </div>
         </div>
         <div className="gallery">
-              <Image className="m-5" src="/DJI_0539.jpg" style={{ objectFit: "contain", width: "90vw", height: "100%" }} width={4000} height={2000}
+              <Image className="m-5" src="/DJI_0539.jpg" style={{ objectFit: "contain", width: "90vw",  height: "100%" }}  width={4000} loading="lazy" height={2000}
                    />
-              <Image className="m-5" src="/DJI_0524.jpg" style={{ objectFit: "contain", width: "90vw", height: "100%" }} width={4000} height={2000}
+              <Image className="m-5" src="/DJI_0524.jpg" style={{ objectFit: "contain", width: "90vw",  height: "100%" }}  width={4000} loading="lazy" height={2000}
                    />
       </div>
       <Contact />
