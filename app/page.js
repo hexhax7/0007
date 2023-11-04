@@ -14,7 +14,7 @@ export default function Home() {
       </div>
               <Image
 
-          src="/DJI_0465.jpg"
+          src="/DJI_0465.png"
           style={{ objectFit: "contain", width: "100vw",  height: "100%" }}
           
           width={4000}
@@ -33,7 +33,7 @@ export default function Home() {
       <div className='chamonix'>
         <h1 className={abel.className}>Chamonix 19/09/2023</h1>
         <div className='chamonix-flex'>
-          <div><Image src="/DJI_0578.jpg" className="chamonix-img" width={4000} loading="lazy" height={2250} style={{objectFit:"contain"}}
+          <div><Image src="/DJI_0578.png" className="chamonix-img" width={4000} loading="lazy" height={2250} style={{objectFit:"contain"}}
           /></div>
         
            <video autoPlay loop muted width="4000" loading="lazy" height="386" style={{objectFit:"contain"}}>
@@ -58,9 +58,9 @@ export default function Home() {
         </div>
         </div>
         <div className="gallery">
-              <Image className="m-5" src="/DJI_0539.jpg" style={{ objectFit: "contain", width: "90vw",  height: "100%" }}  width={4000} loading="lazy" height={2000}
+              <Image className="m-5" src="/DJI_0539.png" style={{ objectFit: "contain", width: "90vw",  height: "100%" }}  width={4000} loading="lazy" height={2000}
                    />
-              <Image className="m-5" src="/DJI_0524.jpg" style={{ objectFit: "contain", width: "90vw",  height: "100%" }}  width={4000} loading="lazy" height={2000}
+              <Image className="m-5" src="/DJI_0524.png" style={{ objectFit: "contain", width: "90vw",  height: "100%" }}  width={4000} loading="lazy" height={2000}
                    />
       </div>
       <Contact />
