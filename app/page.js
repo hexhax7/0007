@@ -43,14 +43,14 @@ export default function Home() {
       </div>
       <div className="services">
         <div>
-        <Image src="/Drone_inspection.png" width={512} height={512} style={{objectFit:"contain"}} />
+        <Image src="/Drone_inspection.png" width={512} height={512} style={{objectFit:"contain"}} alt='drone inspection' />
           <p className="">
             Explore drone inspections for construction sites - they excel at accessing challenging areas, ensuring thorough, safe assessments. Rely on precision and ease, eliminating risky manual inspections for confident decision-making.
           </p>
         </div>
       
         <div>
-          <Image src="/Drone_imagery.png" width={512} height={512} style={{objectFit:"contain"}} />
+          <Image src="/Drone_imagery.png" width={512} height={512} style={{objectFit:"contain"}} alt='drone imagery'/>
           <p className="">
             Elevate your website with our drone photography service. We capture high-quality, unique aerial shots that offer a fresh perspective on your work. Transform your online presence with striking visuals.
           </p>
