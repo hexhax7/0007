@@ -105,3 +105,141 @@ a {
     color-scheme: dark;
   }
 }
+
+.logo{
+  position: absolute;
+  margin: 5%;
+  padding: 1%;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.logo div{
+  border: solid black 10px;
+  
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  
+}
+
+.logo h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.specs{
+  margin: auto;
+  margin-top: 5%;
+  width: 40%;
+  min-width: fit-content;
+  height: 10vh;
+  display: flex;
+  border: solid 4px lightgray;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.specs div{
+  background-color: darkgray;
+  height: 90%;
+  width: 5px;
+  transform: rotate(18deg);
+  border-radius: 10px;
+  margin: 1%;
+  
+}
+
+.specs h2{
+  
+  margin: 4%;
+  
+ 
+}
+.chamonix{
+  margin: 5%;
+  width: 100%;
+
+}
+.chamonix h1{
+  margin: 5%;
+  white-space: nowrap;
+}
+.chamonix-flex{
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.chamonix-flex video{
+  width: 50%;
+  height: 45vh;
+}
+
+.chamonix-img{
+  width: 100%;
+  height: 45vh;
+} 
+@media screen and (max-width: 800px){
+  .chamonix{
+    margin: 2%;
+    width: 95%;
+  
+  }
+  .chamonix-flex{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+.chamonix-flex video{
+  width: 100%;
+  height: 45vh;
+  margin: 0%;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+}
+.services{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.services div{
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+.services p{
+  margin: 5%;
+  width: 80%;
+  text-align: center;
+}
+
+.services img {
+  width: 20vw;
+  height: 30vh;
+}
+
+.gallery{
+  width: 90%;
+  margin: 5%;
+}
