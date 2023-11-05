@@ -18,18 +18,25 @@ export default function Home() {
       </div>
       <Image
         className="landscape"
+        priority={true}
         src="/DJI_0465.png"
-        style={{ objectFit: "cover" }}
+        style={{ objectFit: "cover", height: "100vh", width: "100%" }}
+        alt="DJI mini 2 photo"
         width={4000}
         height={2250}
-        layout="responsive"
       />
       <Image
         src="/portrait/DJI_04669x16.png"
-        style={{ objectFit: "contain", width: "100%", height: "auto" }}
+        priority={true}
+        style={{
+          objectFit: "contain",
+          width: "100%",
+          height: "auto",
+          maxHeight: "100vh",
+        }}
         className="portrait"
+        alt="DJI mini 2 photo"
         width={1266}
-        loading="lazy"
         height={2250}
       />
       <div className="specs-flex">
@@ -37,6 +44,7 @@ export default function Home() {
           className="specs-flex-image"
           style={{ objectFit: "contain" }}
           src="/djimini2.jpg"
+          alt="DJI mini 2 photo"
           width={2000}
           height={1125}
         />
@@ -59,7 +67,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      ?
+
       <div className="chamonix">
         <h1 className={abel.className}>Chamonix 19/09/2023</h1>
         <div className="chamonix-flex">
@@ -67,6 +75,7 @@ export default function Home() {
             <Image
               src="/DJI_0578.png"
               className="chamonix-img"
+              alt="DJI mini 2 photo"
               width={4000}
               loading="lazy"
               height={2250}
@@ -78,6 +87,7 @@ export default function Home() {
             autoPlay
             loop
             muted
+            alt="DJI mini 2 photo"
             width="4000"
             loading="lazy"
             height="386"
@@ -127,6 +137,7 @@ export default function Home() {
           className="m-5"
           src="/DJI_0539.png"
           style={{ objectFit: "contain", width: "90vw", height: "100%" }}
+          alt="DJI mini 2 photo"
           width={4000}
           loading="lazy"
           height={2000}
@@ -135,6 +146,7 @@ export default function Home() {
           className="m-5"
           src="/DJI_0524.png"
           style={{ objectFit: "contain", width: "90vw", height: "100%" }}
+          alt="DJI mini 2 photo"
           width={4000}
           loading="lazy"
           height={2000}
