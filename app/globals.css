@@ -173,6 +173,34 @@ a {
     margin: auto;
   }
 }
+
+.process {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  text-align: center;
+}
+.process span {
+  font-size: xxx-large;
+}
+
+.process div {
+  padding: 2%;
+  font-size: larger;
+}
+.process p {
+  padding: 1%;
+  width: 60%;
+  margin: auto;
+}
+.process span {
+  padding: 2%;
+}
+.price {
+  margin: auto;
+}
+
 .services {
   display: flex;
   width: 80%;

@@ -132,6 +132,64 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div className="process">
+        <div className={abel.className}>
+          <h2>Step 1</h2>
+          <span class="material-symbols-outlined">call</span>
+          <p>Get in touch to discuss your requirements.</p>
+          <h4>+447547845006 </h4>
+          <h4>hexhax-drones@outlook.com</h4>
+        </div>
+        <div className={abel.className}>
+          <h2>Step 2</h2>
+          <span class="material-symbols-outlined">photo_camera</span>
+          <p>We will come to out take photos free of charge.</p>
+        </div>
+        <div className={abel.className}>
+          <h2>Step 3</h2>
+          <span class="material-symbols-outlined">mail</span>
+          <p>
+            We will email all of the photos we have taken allowing you to pick
+            which photo you would like to purchase.
+          </p>
+        </div>
+
+        <div className="price">
+          <h1 className={abel.className}>Prices</h1>
+          <div className={abel.className}>
+            <table>
+              <tr>
+                <th className={abel.className}>Number of Photos</th>
+                <th className={abel.className}>Price per Photo</th>
+                <th className={abel.className}>Total Price</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>£10</td>
+                <td>£10</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>£6</td>
+                <td>£30</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>£4</td>
+                <td>£40</td>
+              </tr>
+
+              <tr>
+                <td>Custom</td>
+                <td style={{ whiteSpace: "nowrap" }}>
+                  Contact for a personalized quote
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
       <div className="gallery">
         <Image
           className="m-5"
@@ -142,6 +200,7 @@ export default function Home() {
           loading="lazy"
           height={2000}
         />
+
         <Image
           className="m-5"
           src="/DJI_0524.png"
@@ -152,6 +211,7 @@ export default function Home() {
           height={2000}
         />
       </div>
+
       <Contact />
     </main>
   );
